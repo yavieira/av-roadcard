@@ -5,7 +5,6 @@ import com.roadcard.app.controller.vo.UsuarioVO;
 import com.roadcard.app.model.Usuario;
 import com.roadcard.app.repository.UsuarioRepository;
 import com.roadcard.app.util.FormatUtil;
-import javafx.application.Application;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
