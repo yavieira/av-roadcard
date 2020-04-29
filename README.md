@@ -11,7 +11,7 @@ Para realizar a subida local siga as instruções:
 
 1: Faça o download do projeto 
 
- 1.1: Via Git -> Faça o download do git no site https://git-scm.com/downloads
+ 1.1: Via Git -> Faça o download do git no site do [GIT](https://git-scm.com/downloads)
                  Instale o arquivo baixado na sua máquina (next next finish)
                  Clique com botão direito em uma pasta e selecione Git Bash
                  Dentro do terminal, execute o comando 'git clone https://github.com/yavieira/av-roadcard.git'
@@ -30,7 +30,7 @@ Para realizar a subida local siga as instruções:
     lista -> curl -X GET http://localhost:8080/usuario
     findByCpfOrName -> curl -X GET http://localhost:8080/usuario/buscaPorCpfOuNome/Yuri%20Iagi (%20 representa espaço em branco)
                        curl -X GET http://localhost:8080/usuario/buscaPorCpfOuNome/14611835707
-    atualizar -> curl -X PUT -H "Content-Type: application/json" -d "{"""nome""":"""Teste""","""cpf""": """123"""}" http://localhost:8080/usuario/1 (os double quotes só funcionam assim no meu prompt, caso tenha problemas executando dessa forma verifique: https://mkyong.com/web/curl-put-request-examples/)
+    atualizar -> curl -X PUT -H "Content-Type: application/json" -d "{"""nome""":"""Teste""","""cpf""": """123"""}" http://localhost:8080/usuario/1 (os double quotes só funcionam assim no meu prompt, caso tenha problemas executando dessa forma verifique: [Curl Put Request Examples](https://mkyong.com/web/curl-put-request-examples/))
     remover -> curl -X DELETE http://localhost:8080/usuario/1
     cadastrar -> curl -H "Content-Type: application/json" -X POST -d "{\"nome\":\"Av RoadCard\",\"cpf\":\"13345678909\"}" http://localhost:8080/usuario/'
 
