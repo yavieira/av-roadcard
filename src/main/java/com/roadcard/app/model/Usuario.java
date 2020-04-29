@@ -1,28 +1,33 @@
 package com.roadcard.app.model;
 
-import org.springframework.data.annotation.LastModifiedDate;
-
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
-import javax.validation.constraints.Pattern;
 import java.io.Serializable;
 
 @Entity
 public class Usuario implements Serializable {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
     private String nome;
 
-    @Pattern(regexp = "(^\\d{3}\\x2E\\d{3}\\x2E\\d{3}\\x2D\\d{2}$)")
     private String cpf;
 //
 //    @LastModifiedDate
 //    private long ultimaAtualizacao;
+
+
+    public Usuario(String nome, String cpf) {
+        this.nome = nome;
+        this.cpf = cpf;
+    }
+
+    public Usuario() {
+    }
 
     public Long getId() {
         return id;
