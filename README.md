@@ -25,7 +25,7 @@ Para realizar a subida local siga as instruções:
   
   3.1: Via Postman -> A collection está disponibilizada no projeto, basta importar no Postman. Import > Choose File.
   
-  3.2: Via Curl -> Para facilitar, vou disponibilizar um exemplo de curl pra cada endpoint da aplicação.
+  3.2: Via cURL -> Para facilitar, vou disponibilizar um exemplo de curl pra cada endpoint da aplicação.
   
     lista -> curl -X GET http://localhost:8080/usuario
     findByCpfOrName -> curl -X GET http://localhost:8080/usuario/buscaPorCpfOuNome/Yuri%20Iagi (%20 representa espaço em branco)
