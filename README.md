@@ -14,7 +14,7 @@ Para realizar a subida local siga as instruções:
  1.1: Via Git -> Faça o download do git no site do [GIT](https://git-scm.com/downloads)
                  Instale o arquivo baixado na sua máquina (next next finish)
                  Clique com botão direito em uma pasta e selecione Git Bash
-                 Dentro do terminal, execute o comando 'git clone https://github.com/yavieira/av-roadcard.git'
+                 Dentro do terminal, execute o comando -> git clone https://github.com/yavieira/av-roadcard.git'
  
  1.2: Via Browser -> Clique no botão verde 'Clone or download' e selecione a opção 'Download ZIP'
                      Extraia o arquivo ZIP em uma pasta de sua preferência                 
