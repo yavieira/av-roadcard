@@ -12,4 +12,4 @@ Acesse a pasta /bin do tomcat via prompt de comando e execute:
 Windows: catalina.bat run
 Linux: catalina.sh run
 
-Acesse via browser http://localhost:8080/app
+Acesse via browser http://localhost:8080/
