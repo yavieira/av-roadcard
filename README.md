@@ -17,9 +17,9 @@ Para realizar a subida local siga as instruções:
                  Dentro do terminal, execute o comando 'git clone https://github.com/yavieira/av-roadcard.git'
  
  1.2: Via Browser -> Clique no botão verde 'Clone or download' e selecione a opção 'Download ZIP'
-                     Extraia o arquivo ZIP em uma pasta de sua preferência
+                     Extraia o arquivo ZIP em uma pasta de sua preferência                 
                      
- 2: Abrir o prompt de comando ou git bash na pasta do projeto e digitar o comando 'java -jar target/app-0.0.1-SNAPSHOT.jar'
+ 2: Para evitar a necessidade do Maven instalado, disponibilizei o jar da aplicação na pasta raíz. Abrir o prompt de comando ou git bash na pasta do projeto e digitar o comando 'java -jar app-0.0.1-SNAPSHOT.jar'
  
  3: Para testar a aplicação local:
   
