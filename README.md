@@ -33,5 +33,5 @@ Para realizar a subida local siga as instruções:
     atualizar -> 'curl -X PUT -H "Content-Type: application/json" -d "{"""nome""":"""Teste""","""cpf""": """123"""}" http://localhost:8080/usuario/1' (os double quotes só funcionam assim no meu prompt, caso tenha problemas executando dessa forma verifique: https://mkyong.com/web/curl-put-request-examples/)
     remover -> 'curl -X DELETE http://localhost:8080/usuario/1'
     cadastrar -> 'curl -H "Content-Type: application/json" -X POST -d "{\"nome\":\"Av RoadCard\",\"cpf\":\"13345678909\"}" http://localhost:8080/usuario/'
-  
-    
+
+4: Estratégia de deploy da aplicação na branch 'deploy'
