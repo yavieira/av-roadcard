@@ -11,12 +11,12 @@ Para realizar a subida local siga as instruções:
 
 1: Faça o download do projeto 
 
- 1.1: Via Git -> Faça o download do git no site do [GIT](https://git-scm.com/downloads)
-                 Instale o arquivo baixado na sua máquina (next next finish)
-                 Clique com botão direito em uma pasta e selecione Git Bash
-                 Dentro do terminal, execute o comando -> git clone https://github.com/yavieira/av-roadcard.git'
+ 1.1: Via Git -> Faça o download no site do [GIT](https://git-scm.com/downloads)  
+                 Instale o arquivo baixado na sua máquina (next next finish)  
+                 Clique com botão direito em uma pasta e selecione Git Bash  
+                 Dentro do terminal, execute o comando -> git clone https://github.com/yavieira/av-roadcard.git'  
  
- 1.2: Via Browser -> Clique no botão verde 'Clone or download' e selecione a opção 'Download ZIP'
+ 1.2: Via Browser -> Clique no botão verde 'Clone or download' e selecione a opção 'Download ZIP'  
                      Extraia o arquivo ZIP em uma pasta de sua preferência                 
                      
  2: Para evitar a necessidade do Maven instalado, disponibilizei o jar da aplicação na pasta raíz. Abrir o prompt de comando ou git bash na pasta do projeto e digitar o comando 'java -jar app-0.0.1-SNAPSHOT.jar'
