@@ -16,10 +16,6 @@ public class Usuario implements Serializable {
     private String nome;
 
     private String cpf;
-//
-//    @LastModifiedDate
-//    private long ultimaAtualizacao;
-
 
     public Usuario(String nome, String cpf) {
         this.nome = nome;
@@ -53,11 +49,4 @@ public class Usuario implements Serializable {
         this.cpf = cpf;
     }
 
-//    public long getUltimaAtualizacao() {
-//        return ultimaAtualizacao;
-//    }
-//
-//    public void setUltimaAtualizacao(long ultimaAtualizacao) {
-//        this.ultimaAtualizacao = ultimaAtualizacao;
-//    }
 }

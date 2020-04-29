@@ -5,7 +5,9 @@ import com.roadcard.app.controller.vo.UsuarioVO;
 import com.roadcard.app.model.Usuario;
 import com.roadcard.app.repository.UsuarioRepository;
 import com.roadcard.app.util.FormatUtil;
+import javafx.application.Application;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
@@ -21,7 +23,7 @@ public class UsuarioController {
     private UsuarioRepository usuarioRepository;
 
     @GetMapping("/buscaPorCpfOuNome/{param}")
-    public ResponseEntity<Usuario> findByCpf(@PathVariable String param){
+    public ResponseEntity<Usuario> findByCpfOrName(@PathVariable String param){
 
         Usuario usuario = null;
 
@@ -48,7 +50,7 @@ public class UsuarioController {
         return null;
     }
 
-    @PutMapping("/{id}")
+    @PutMapping(value = "/{id}", consumes = MediaType.APPLICATION_JSON_VALUE)
     public ResponseEntity<UsuarioVO> atualizar(@PathVariable Long id,
                                                @RequestBody @Valid UsuarioForm form){
 
